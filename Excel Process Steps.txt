@@ -1,0 +1,37 @@
+Steps to do In Excel
+
+
+Welcome before starting loading the info from our cvs file into R is necesary to do a couple of steps.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+First 
+
+Make sure to create a backup for good data practices.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Second 
+
+Open de data and add the next 2 columns 
+-Ride_Length 
+-Wee_Day
+
+For "Ride_Length" put the in the middle of "ended_at" and "start_station" 
+For "Week_Day" put the new column in the middle of Ride_Length and "start_station" 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Third
+Delet the column that said "rideable_type" in the archive "Divvy_Trips_2020_Q1"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Four
+
+For the Ride_Length Calculate the length of each ride by subtracting the column “started_at” from the column “ended_at” (=D2-C2) and format as HH:MM:SS using Format > Cells >
+Time > 37:30:55.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Five
+
+For the Wee_Day calculate the day of the week that each ride started using the “WEEKDAY” command (for example, =WEEKDAY(C2,1)) in each file. Format as General or as a number with no decimals, noting that
+1 = Sunday and 7 = Saturday.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Six 
+
+Save the file and then do the same for the other 3 and then go to RStudio
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
