@@ -1,0 +1,10 @@
+Page to donwload the data 
+
+https://divvy-tripdata.s3.amazonaws.com/index.html
+
+Download the next doc 
+
+ Divvy_Trips_2019_Q2.zip	Nov 8th 2021, 04:06:12 pm	28.72 MB	ZIP file
+ Divvy_Trips_2019_Q3.zip	Jan 24th 2020, 10:08:06 am	42.36 MB	ZIP file
+ Divvy_Trips_2019_Q4.zip	Jan 24th 2020, 10:08:07 am	18.40 MB	ZIP file
+ Divvy_Trips_2020_Q1.zip	May 26th 2020, 06:17:43 pm	15.92 MB	ZIP file
